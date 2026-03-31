@@ -1,0 +1,5 @@
+# Replace placeholder owners with real GitHub usernames or teams.
+
+* @org/team
+/docs/ @org/team
+/.github/ @org/team
