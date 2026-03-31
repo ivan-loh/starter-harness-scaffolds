@@ -1,14 +1,59 @@
-# Starter Harness Engineering Scaffolds
+# Starter Harness for AI-to-Production Projects
 
-> Purpose: Explain the scaffold variants, how to copy one into a new repository, and how humans or LLMs should use it after copying.
-> When to update: When the scaffold layout, references, or variant boundaries change.
-> Owner: Template maintainers.
+Help small product teams move fast with AI while keeping the repo clear enough for engineers to review, fix, and deploy.
 
-## Overview
+This repository gives you starter scaffolds for new projects.
 
-This repository contains three documentation scaffolds for new software projects.
+They help teams set up the basic docs, rules, and structure early.
 
-Each scaffold is a folder that you copy into a new repository and then edit by hand.
+The goal is simple: when engineers need to take a project further, the repo is easier to understand and safer to ship.
+
+## Who This Is For
+
+- Small product teams building new software
+- Teams using AI tools to move faster in early project work
+- Projects that will later need engineers to review, clean up, harden, and deploy
+- Teams that want better docs and clearer handoff from day one
+
+## Why This Exists
+
+Many small teams can build fast with AI.
+
+The hard part comes later.
+
+When engineers need to fix bugs, review changes, improve the code, and deploy safely, they often inherit a repo with missing context and weak structure.
+
+This starter harness helps teams set up the basic docs and working rules early, so the project is easier to understand and easier to ship later.
+
+## Choose a Scaffold
+
+If you are not sure, start with `balanced`.
+
+- `minimal`
+  Best for small repos that need the core docs and a simple working structure.
+- `balanced`
+  Best for most small product teams. It adds security, roadmap, risks, and contribution docs on top of the core set.
+- `full`
+  Best for projects that also need deeper docs for design, API, data, operations, deployment, and release work.
+
+## Scaffold Repos
+
+- [`starter-harness-minimal`](https://github.com/ivan-loh/starter-harness-minimal)
+- [`starter-harness-balanced`](https://github.com/ivan-loh/starter-harness-balanced)
+- [`starter-harness-full`](https://github.com/ivan-loh/starter-harness-full)
+
+## How to Start
+
+1. Pick the scaffold that fits your project.
+2. Open the scaffold repo for that option.
+3. Clone that repo or use it as the base for your new project.
+4. Replace the placeholder text.
+5. Fill in the core docs first.
+6. Keep the docs updated as the project changes.
+
+## How the Scaffolds Work
+
+Each scaffold is a separate repository that gives you a starting set of docs for a new software project.
 
 In every scaffold:
 
@@ -16,41 +61,15 @@ In every scaffold:
 - `CLAUDE.md` is the main file for Claude Code
 - `docs/INDEX.md` is the file map for the docs
 
-No scaffold includes `.cursor`, `AGENTS.md`, or generator scripts.
+## Human Workflow After Setup
 
-## Choose A Scaffold
-
-- `scaffolds/minimal`
-  - for smaller repos that still need planning, architecture, development, and testing docs
-- `scaffolds/balanced`
-  - for the usual app-repo case with contribution, security, and governance files
-- `scaffolds/full`
-  - for systems that also need interface, runtime, deployment, release, and operations docs
-
-## Copy A Scaffold
-
-1. Clone this repository.
-2. Pick one scaffold in `scaffolds/`.
-3. Copy that scaffold into the root of a new repository.
-4. Replace the placeholders.
-5. Remove any files you do not need.
-6. Update `docs/INDEX.md` if you add, remove, rename, or move docs.
-
-```bash
-cp -R scaffolds/balanced/. ../my-new-project/
-```
-
-If you publish this repository on GitHub, you can also mark it as a template repository and generate new repositories from it in the GitHub UI.
-
-## Human Workflow After Copying
-
-1. Open the copied `README.md`.
+1. Open the scaffold `README.md`.
 2. Fill in the project name, setup, and commands.
 3. Read `docs/INDEX.md` to see what each doc is for.
 4. Update the core docs first.
 5. Keep the docs aligned with the real repository structure.
 
-## LLM Workflow After Copying
+## LLM Workflow After Setup
 
 For another LLM working in the copied repository:
 
@@ -74,7 +93,7 @@ The scaffold files keep a small set of placeholders:
 - `{{CURRENT_DATE}}`
 - `{{CURRENT_YEAR}}`
 
-These placeholders are expected in the scaffold files and should be replaced after copying a scaffold into a real repository.
+These placeholders are expected in the scaffold files and should be replaced after starting from a scaffold repository.
 
 ## References
 
