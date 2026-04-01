@@ -2,9 +2,9 @@
 
 Help small product teams move fast with AI while keeping the repo clear enough for engineers to review, fix, and deploy.
 
-This repository gives you starter scaffolds for new projects.
+This repository helps you choose the right starter harness for your project.
 
-They help teams set up the basic docs, rules, and structure early.
+Each starter harness lives in its own repository, so you can start from the right template directly.
 
 The goal is simple: when engineers need to take a project further, the repo is easier to understand and safer to ship.
 
@@ -38,9 +38,9 @@ If you are not sure, start with `balanced`.
 
 ## Scaffold Repos
 
-- [`starter-harness-minimal`](https://github.com/ivan-loh/starter-harness-minimal)
-- [`starter-harness-balanced`](https://github.com/ivan-loh/starter-harness-balanced)
-- [`starter-harness-full`](https://github.com/ivan-loh/starter-harness-full)
+- [`starter-harness-minimal` - minimal template](https://github.com/ivan-loh/starter-harness-minimal)
+- [`starter-harness-balanced` - balanced template](https://github.com/ivan-loh/starter-harness-balanced)
+- [`starter-harness-full` - full template](https://github.com/ivan-loh/starter-harness-full)
 
 ## How to Start
 
@@ -53,7 +53,7 @@ If you are not sure, start with `balanced`.
 
 ## How the Scaffolds Work
 
-Each scaffold is a separate repository that gives you a starting set of docs for a new software project.
+Each starter harness lives in its own repository and gives you a starting set of docs for a new software project.
 
 In every scaffold:
 
