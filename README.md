@@ -38,15 +38,18 @@ If you are not sure, start with `balanced`.
 
 ## Scaffold Repos
 
-- [`starter-harness-minimal` - minimal template](https://github.com/ivan-loh/starter-harness-minimal)
-- [`starter-harness-balanced` - balanced template](https://github.com/ivan-loh/starter-harness-balanced)
-- [`starter-harness-full` - full template](https://github.com/ivan-loh/starter-harness-full)
+- [`starter-harness-minimal` - view the minimal template](https://github.com/ivan-loh/starter-harness-minimal)
+- [`starter-harness-minimal/generate` - start from the minimal template](https://github.com/ivan-loh/starter-harness-minimal/generate)
+- [`starter-harness-balanced` - view the balanced template](https://github.com/ivan-loh/starter-harness-balanced)
+- [`starter-harness-balanced/generate` - start from the balanced template](https://github.com/ivan-loh/starter-harness-balanced/generate)
+- [`starter-harness-full` - view the full template](https://github.com/ivan-loh/starter-harness-full)
+- [`starter-harness-full/generate` - start from the full template](https://github.com/ivan-loh/starter-harness-full/generate)
 
 ## How to Start
 
 1. Pick the scaffold that fits your project.
 2. Open the scaffold repo for that option.
-3. Clone that repo or use it as the base for your new project.
+3. Use the direct `/generate` link if you want to create a new GitHub repository from the template.
 4. Replace the placeholder text.
 5. Fill in the core docs first.
 6. Keep the docs updated as the project changes.
