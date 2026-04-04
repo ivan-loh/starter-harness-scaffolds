@@ -1,4 +1,4 @@
-# Starter Harness for AI-to-Production Projects
+# Starter Harness for Vibe Coded Projects
 
 Help small product teams move fast with AI while keeping the repo clear enough for engineers to review, fix, and deploy.
 
